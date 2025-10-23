@@ -1,0 +1,129 @@
+### Create Order 1
+POST http://localhost:3000/order
+Content-Type: application/json
+
+{
+  "user": "68fa52d8c452adde472bb6d4",
+  "orderItems": [
+    {
+      "product": "68f93984561a5b60396f9afa",
+      "name": "Fresh Chicken Breast",
+      "quantity": 2,
+      "price": 12.99,
+      "icon": "🍗"
+    },
+    {
+      "product": "68f93986561a5b60396f9afc",
+      "name": "Grass-fed Beef Steak",
+      "quantity": 1,
+      "price": 24.99,
+      "icon": "🥩"
+    }
+  ],
+  "shippingAddress": {
+    "address": "123 Main St",
+    "city": "Sample City",
+    "postalCode": "12345",
+    "country": "Sample Country"
+  },
+  "totalPrice": 50.97,
+  "status": "Pending"
+}
+
+###
+
+### Create Order 2
+POST http://localhost:3000/order
+Content-Type: application/json
+
+{
+  "user": "68fa52dbc452adde472bb6d7",
+  "orderItems": [
+    {
+      "product": "68f93987561a5b60396f9afe",
+      "name": "Pork Sausages",
+      "quantity": 5,
+      "price": 8.99,
+      "icon": "🌭"
+    }
+  ],
+  "shippingAddress": {
+    "address": "456 Another Rd",
+    "city": "Another City",
+    "postalCode": "67890",
+    "country": "Another Country"
+  },
+  "totalPrice": 44.95,
+  "status": "Pending"
+}
+
+###
+
+### Create Order 3
+POST http://localhost:3000/order
+Content-Type: application/json
+
+{
+  "user": "68fa52d8c452adde472bb6d4",
+  "orderItems": [
+    {
+      "product": "68f9398a561a5b60396f9b00",
+      "name": "Turkey Drumsticks",
+      "quantity": 3,
+      "price": 15.49,
+      "icon": "🍖"
+    },
+    {
+      "product": "68f9398c561a5b60396f9b02",
+      "name": "Lamb Chops",
+      "quantity": 2,
+      "price": 22.50,
+      "icon": "🍖"
+    }
+  ],
+  "shippingAddress": {
+    "address": "789 Last Ln",
+    "city": "Last City",
+    "postalCode": "11223",
+    "country": "Last Country"
+  },
+  "totalPrice": 91.97,
+  "status": "Pending"
+}
+
+
+###
+
+### Get all orders
+GET http://localhost:3000/order
+
+###
+
+### Get order by ID
+GET http://localhost:3000/order/ORDER_ID
+
+###
+
+### Update order (PATCH)
+PATCH http://localhost:3000/order/ORDER_ID
+Content-Type: application/json
+
+{
+  "status": "Shipped",
+  "deliveredAt": "2025-11-01T12:00:00Z"
+}
+
+###
+
+### Delete order
+DELETE http://localhost:3000/order/ORDER_ID
+
+###
+
+### Search order by ID or user (query param)
+GET http://localhost:3000/order/search?q=SEARCH_VALUE
+
+###
+
+### Filter orders by date range (query params)
+GET http://localhost:3000/order/filter?from=2025-01-01&to=2025-12-31

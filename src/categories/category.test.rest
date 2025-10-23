@@ -1,0 +1,64 @@
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+  "name": "Fruits",
+  "description": "Fresh fruits category",
+  "icon": "https://example.com/icons/fruits.png"
+}
+
+
+###
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+  "name": "Vegetables",
+  "description": "Fresh vegetables category",
+  "icon": "🥦"
+}
+
+###
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+  "name": "Meat",
+  "description": "Fresh meat category",
+  "icon": "🍖"
+}
+
+
+###
+GET http://localhost:3000/category
+Accept: application/json
+
+
+###
+GET http://localhost:3000/category/68f9312f5ffc661505040139
+Accept: application/json
+
+
+###
+GET http://localhost:3000/category/by-product-count?min=0&max=10
+Accept: application/json
+
+
+###
+GET http://localhost:3000/category/search?q=f
+Accept: application/json
+
+
+###
+PATCH http://localhost:3000/category/68f9312f5ffc661505040139
+Accept: application/json
+Content-Type: application/json
+
+{
+  "icon": "🥭"
+}
+
+
+###
+DELETE http://localhost:3000/category/68f9312f5ffc661505040139
+Accept: application/json

@@ -1,0 +1,83 @@
+### 1️⃣ Add Customer 1
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Alice Johnson",
+  "email": "alice@example.com",
+  "password": "password123",
+  "role": "customer",
+  "address": "123 Main St, New York",
+  "phone": "+1 555-1234"
+}
+
+###
+
+### 2️⃣ Add Customer 2
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Bob Smith",
+  "email": "bob@example.com",
+  "password": "securepass",
+  "role": "customer",
+  "address": "45 Pine Ave, Los Angeles",
+  "phone": "+1 555-5678"
+}
+
+###
+
+### 3️⃣ Add Customer 3
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Charlie Brown",
+  "email": "charlie@example.com",
+  "password": "charliepw",
+  "role": "customer",
+  "address": "78 Oak Lane, Chicago",
+  "phone": "+1 555-9012"
+}
+
+###
+
+### 4️⃣ Get All Users
+GET http://localhost:3000/user
+Accept: application/json
+
+###
+
+### 5️⃣ Get All Customers
+GET http://localhost:3000/user/customers
+Accept: application/json
+
+###
+
+### 6️⃣ Search Customer (by name or email)
+GET http://localhost:3000/user/search?q=b
+Accept: application/json
+
+###
+
+### 7️⃣ Get User by ID
+GET http://localhost:3000/user/68fa52ddc452adde472bb6da
+Accept: application/json
+
+###
+
+### 8️⃣ Update User (PATCH)
+PATCH http://localhost:3000/user/68fa52ddc452adde472bb6da
+Content-Type: application/json
+
+{
+  "address": "999 Updated St, Miami",
+  "phone": "+1 555-9999"
+}
+
+###
+
+### 9️⃣ Delete User
+DELETE http://localhost:3000/user/68fa52ddc452adde472bb6da
+Accept: application/json

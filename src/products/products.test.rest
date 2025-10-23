@@ -1,0 +1,133 @@
+# Add a new product
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Fresh Chicken",
+  "description": "Organic fresh chicken meat",
+  "price": 15.99,
+  "category": "68f931a35ffc66150504013d",
+  "icon": "🍗",
+  "stock": 50,
+  "isActive": true
+}
+
+### Add Product 1
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Fresh Chicken Breast",
+  "description": "Tender and juicy organic chicken breast",
+  "price": 12.99,
+  "category": "68f931a35ffc66150504013d",
+  "icon": "🍗",
+  "stock": 100,
+  "isActive": true
+}
+
+###
+
+### Add Product 2
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Grass-fed Beef Steak",
+  "description": "Premium grass-fed beef steak",
+  "price": 24.99,
+  "category": "68f931a35ffc66150504013d",
+  "icon": "🥩",
+  "stock": 50,
+  "isActive": true
+}
+
+###
+
+### Add Product 3
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Pork Sausages",
+  "description": "Spicy and flavorful pork sausages",
+  "price": 8.99,
+  "category": "68f931a35ffc66150504013d",
+  "icon": "🌭",
+  "stock": 70,
+  "isActive": true
+}
+
+###
+
+### Add Product 4
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Turkey Drumsticks",
+  "description": "Delicious turkey drumsticks for roasting",
+  "price": 15.49,
+  "category": "68f931a35ffc66150504013d",
+  "icon": "🍖",
+  "stock": 40,
+  "isActive": true
+}
+
+###
+
+### Add Product 5
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Lamb Chops",
+  "description": "Tender lamb chops with herbs",
+  "price": 22.50,
+  "category": "68f931a35ffc66150504013d",
+  "icon": "🍖",
+  "stock": 30,
+  "isActive": true
+}
+
+
+###
+
+# Get all products
+GET http://localhost:3000/product
+
+###
+
+# Search products by partial name
+GET http://localhost:3000/product/search?q=fre
+
+###
+
+# Filter products by price range
+GET http://localhost:3000/product/filter-by-price?min=100&max=200
+
+###
+
+# Filter products by category (meat)
+GET http://localhost:3000/product/filter-by-category?category=68f931a35ffc66150504013d
+
+###
+
+# Get product by ID (replace <productId> with actual ID)
+GET http://localhost:3000/product/68f938ef561a5b60396f9aee
+
+###
+
+# Update product partially (replace <productId>)
+PATCH http://localhost:3000/product/68f938ef561a5b60396f9aee
+Content-Type: application/json
+
+{
+  "price": 17.99,
+  "stock": 40
+}
+
+###
+
+# Delete product by ID (replace <productId>)
+DELETE http://localhost:3000/product/68f938ef561a5b60396f9aee
