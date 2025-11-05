@@ -4,7 +4,7 @@ Content-Type: application/json
 {
   "name": "Fruits",
   "description": "Fresh fruits category",
-  "icon": "https://example.com/icons/fruits.png"
+  "icon": "🥭"
 }
 
 
@@ -35,7 +35,7 @@ Accept: application/json
 
 
 ###
-GET http://localhost:3000/category/68f9312f5ffc661505040139
+GET http://localhost:3000/category/68fbc4f6fecec83e1747c578
 Accept: application/json
 
 

@@ -23,18 +23,21 @@ try {
   process.exit(1);
 }
 
-const whitelist = ['http://localhost:5173']
+const whitelist = ['http://localhost:5173'];
 
 app.use(
   cors({
-    origin: function (origin, callback){
+    origin: function (origin, callback) {
       if (!origin) return callback(null, true);
-      if (whitelist.indexOf(origin) === -1) {
-        callback(new Error(`Not allowed by CORS: $${origin}`));
+      if (whitelist.indexOf(origin) !== -1) {
+        callback(null, true);
+      } else {
+        callback(new Error(`Not allowed by CORS: ${origin}`));
       }
     },
   })
 );
+
 
 app.use(bodyParser.json());
 

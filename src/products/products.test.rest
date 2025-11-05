@@ -6,7 +6,7 @@ Content-Type: application/json
   "name": "Fresh Chicken",
   "description": "Organic fresh chicken meat",
   "price": 15.99,
-  "category": "68f931a35ffc66150504013d",
+  "category": "68fbc4fafecec83e1747c57c",
   "icon": "🍗",
   "stock": 50,
   "isActive": true
@@ -20,7 +20,7 @@ Content-Type: application/json
   "name": "Fresh Chicken Breast",
   "description": "Tender and juicy organic chicken breast",
   "price": 12.99,
-  "category": "68f931a35ffc66150504013d",
+  "category": "68fbc4fafecec83e1747c57c",
   "icon": "🍗",
   "stock": 100,
   "isActive": true
@@ -36,7 +36,7 @@ Content-Type: application/json
   "name": "Grass-fed Beef Steak",
   "description": "Premium grass-fed beef steak",
   "price": 24.99,
-  "category": "68f931a35ffc66150504013d",
+  "category": "68fbc4fafecec83e1747c57c",
   "icon": "🥩",
   "stock": 50,
   "isActive": true
@@ -52,7 +52,7 @@ Content-Type: application/json
   "name": "Pork Sausages",
   "description": "Spicy and flavorful pork sausages",
   "price": 8.99,
-  "category": "68f931a35ffc66150504013d",
+  "category": "68fbc4fafecec83e1747c57c",
   "icon": "🌭",
   "stock": 70,
   "isActive": true
@@ -68,7 +68,7 @@ Content-Type: application/json
   "name": "Turkey Drumsticks",
   "description": "Delicious turkey drumsticks for roasting",
   "price": 15.49,
-  "category": "68f931a35ffc66150504013d",
+  "category": "68fbc4fafecec83e1747c57c",
   "icon": "🍖",
   "stock": 40,
   "isActive": true
@@ -84,7 +84,7 @@ Content-Type: application/json
   "name": "Lamb Chops",
   "description": "Tender lamb chops with herbs",
   "price": 22.50,
-  "category": "68f931a35ffc66150504013d",
+  "category": "68fbc4fafecec83e1747c57c",
   "icon": "🍖",
   "stock": 30,
   "isActive": true

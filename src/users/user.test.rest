@@ -41,7 +41,97 @@ Content-Type: application/json
   "phone": "+1 555-9012"
 }
 
-###
+### 4️⃣ Add Customer 4
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "David Lee",
+  "email": "david.lee@example.com",
+  "password": "securepass4",
+  "role": "customer",
+  "address": "42 Park Ave, Chicago, IL",
+  "phone": "+1 555-4004"
+}
+
+### 5️⃣ Add Customer 5
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Sophia Martinez",
+  "email": "sophia.martinez@example.com",
+  "password": "sophiapass5",
+  "role": "customer",
+  "address": "88 Ocean Blvd, Miami, FL",
+  "phone": "+1 555-5005"
+}
+
+### 6️⃣ Add Customer 6
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Michael Brown",
+  "email": "michael.brown@example.com",
+  "password": "mikebrown6",
+  "role": "customer",
+  "address": "77 Elm St, Dallas, TX",
+  "phone": "+1 555-6006"
+}
+
+### 7️⃣ Add Customer 7
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Emily Davis",
+  "email": "emily.davis@example.com",
+  "password": "emilyd7",
+  "role": "customer",
+  "address": "19 Sunset Rd, Los Angeles, CA",
+  "phone": "+1 555-7007"
+}
+
+### 8️⃣ Add Customer 8
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "James Wilson",
+  "email": "james.wilson@example.com",
+  "password": "jwpass8",
+  "role": "customer",
+  "address": "250 Maple Dr, Seattle, WA",
+  "phone": "+1 555-8008"
+}
+
+### 9️⃣ Add Customer 9
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Olivia Taylor",
+  "email": "olivia.taylor@example.com",
+  "password": "oliviat9",
+  "role": "customer",
+  "address": "310 River St, Denver, CO",
+  "phone": "+1 555-9009"
+}
+
+### 🔟 Add Customer 10
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "William Anderson",
+  "email": "william.anderson@example.com",
+  "password": "willand10",
+  "role": "customer",
+  "address": "512 Pine St, San Francisco, CA",
+  "phone": "+1 555-1010"
+}
+
 
 ### 4️⃣ Get All Users
 GET http://localhost:3000/user

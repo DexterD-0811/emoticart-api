@@ -9,6 +9,11 @@ export const addProduct = async (req, res) => {
       product,
     });
   } catch (error) {
+    if (error.code === 11000) {
+      return res.status(400).json({
+        message: 'Product with this name already exists',
+      });
+    }
     res.status(400).json({
       message: 'Error adding product',
       error: error.message,

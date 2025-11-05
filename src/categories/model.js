@@ -14,6 +14,11 @@ const categorySchema = new Schema({
     type: String,
     required: [true, "Category icon URL is required."],
   },
+  status: {
+    type: String,
+    enum: ['active', 'inactive'],
+    default: 'active',
+  },
 }, {
   timestamps: true,
 });
