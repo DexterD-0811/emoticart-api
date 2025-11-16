@@ -100,7 +100,7 @@ GET http://localhost:3000/order
 ###
 
 ### Get order by ID
-GET http://localhost:3000/order/ORDER_ID
+GET http://localhost:3000/order/690cd307670069749359ef5e
 
 ###
 

@@ -24,6 +24,11 @@ const userSchema = new Schema({
   },
   address: String,
   phone: String,
+  status: {
+    type: String,
+    enum: ['active', 'inactive', 'disabled'],
+    default: 'active',
+  },
 }, {
   timestamps: true,
 });

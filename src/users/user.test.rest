@@ -152,7 +152,7 @@ Accept: application/json
 ###
 
 ### 7️⃣ Get User by ID
-GET http://localhost:3000/user/68fa52ddc452adde472bb6da
+GET http://localhost:3000/user/690b84f859d9f3c79983c93f
 Accept: application/json
 
 ###

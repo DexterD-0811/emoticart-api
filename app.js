@@ -9,6 +9,7 @@ import categoryRoutes from './src/categories/routes.js';
 import productRoutes from './src/products/routes.js';
 import userRoutes from './src/users/routes.js';
 import orderRoutes from './src/orders/routes.js'
+import statRoutes from './src/customers/routes.js';
 
 dotenv.config();
 
@@ -53,6 +54,7 @@ app.use('/category', categoryRoutes);
 app.use('/product', productRoutes);
 app.use('/user', userRoutes);
 app.use('/order', orderRoutes);
+app.use('/stats', statRoutes)
 
 app.listen(PORT, () => {
   console.log(`App is listening to port ${PORT}`);
