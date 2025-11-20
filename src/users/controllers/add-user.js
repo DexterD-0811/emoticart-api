@@ -1,4 +1,8 @@
 import { User } from '../model.js';
+import bcrypt from 'bcrypt';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 export const addUser = async (req, res) => {
   try {
@@ -9,10 +13,12 @@ export const addUser = async (req, res) => {
       return res.status(400).json({ message: 'Email already registered.' });
     }
 
+    const hashedPassword = await bcrypt.hash(password, 12);
+
     const newUser = new User({
       name,
       email,
-      password,
+      password: hashedPassword,
       role,
       address,
       phone,

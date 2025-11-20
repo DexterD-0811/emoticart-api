@@ -1,3 +1,16 @@
+### Admin
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "name": "Admin User",
+  "email": "admin@dashboard.com",
+  "password": "admin123",
+  "role": "admin"
+}
+
+
+
 ### 1️⃣ Add Customer 1
 POST http://localhost:3000/user
 Content-Type: application/json
