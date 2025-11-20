@@ -1,94 +1,762 @@
-# Add a new product
+### ELECTRONICS PRODUCTS
+
 POST http://localhost:3000/product
 Content-Type: application/json
 
 {
-  "name": "Fresh Chicken",
-  "description": "Organic fresh chicken meat",
-  "price": 15.99,
-  "category": "68fbc4fafecec83e1747c57c",
-  "icon": "🍗",
+  "name": "Smartphone X1",
+  "description": "Latest model with OLED display",
+  "price": 799.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "📱",
   "stock": 50,
   "isActive": true
 }
 
-### Add Product 1
+###
+
 POST http://localhost:3000/product
 Content-Type: application/json
 
 {
-  "name": "Fresh Chicken Breast",
-  "description": "Tender and juicy organic chicken breast",
-  "price": 12.99,
-  "category": "68fbc4fafecec83e1747c57c",
-  "icon": "🍗",
+  "name": "Laptop Pro 15",
+  "description": "High performance laptop for professionals",
+  "price": 1299.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "💻",
+  "stock": 30,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Wireless Earbuds",
+  "description": "Noise-cancelling true wireless earbuds",
+  "price": 199.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "🎧",
   "stock": 100,
   "isActive": true
 }
 
 ###
 
-### Add Product 2
 POST http://localhost:3000/product
 Content-Type: application/json
 
 {
-  "name": "Grass-fed Beef Steak",
-  "description": "Premium grass-fed beef steak",
-  "price": 24.99,
-  "category": "68fbc4fafecec83e1747c57c",
-  "icon": "🥩",
-  "stock": 50,
+  "name": "Smartwatch Series 5",
+  "description": "Track your health and notifications",
+  "price": 249.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "⌚️",
+  "stock": 60,
   "isActive": true
 }
 
 ###
 
-### Add Product 3
 POST http://localhost:3000/product
 Content-Type: application/json
 
 {
-  "name": "Pork Sausages",
-  "description": "Spicy and flavorful pork sausages",
-  "price": 8.99,
-  "category": "68fbc4fafecec83e1747c57c",
-  "icon": "🌭",
-  "stock": 70,
+  "name": "4K LED TV 55\"",
+  "description": "Ultra HD smart television",
+  "price": 699.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "📺",
+  "stock": 20,
   "isActive": true
 }
 
 ###
 
-### Add Product 4
 POST http://localhost:3000/product
 Content-Type: application/json
 
 {
-  "name": "Turkey Drumsticks",
-  "description": "Delicious turkey drumsticks for roasting",
-  "price": 15.49,
-  "category": "68fbc4fafecec83e1747c57c",
-  "icon": "🍖",
+  "name": "Bluetooth Speaker",
+  "description": "Portable speaker with deep bass",
+  "price": 99.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "🔊",
+  "stock": 80,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Digital Camera",
+  "description": "High resolution DSLR camera",
+  "price": 599.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "📷",
+  "stock": 25,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Gaming Console Z",
+  "description": "Next-gen gaming experience",
+  "price": 499.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "🎮",
   "stock": 40,
   "isActive": true
 }
 
 ###
 
-### Add Product 5
 POST http://localhost:3000/product
 Content-Type: application/json
 
 {
-  "name": "Lamb Chops",
-  "description": "Tender lamb chops with herbs",
-  "price": 22.50,
-  "category": "68fbc4fafecec83e1747c57c",
-  "icon": "🍖",
+  "name": "VR Headset",
+  "description": "Immersive virtual reality experience",
+  "price": 399.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "🕶️",
+  "stock": 35,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "External SSD 1TB",
+  "description": "Fast storage solution for all devices",
+  "price": 149.99,
+  "category": "691f3c109b6d977ecc76d483",
+  "icon": "💾",
+  "stock": 70,
+  "isActive": true
+}
+
+###
+
+### FASHION & APPAREL PRODUCTS
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Men's T-Shirt",
+  "description": "Comfortable cotton t-shirt",
+  "price": 19.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "👕",
+  "stock": 100,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Women's Dress",
+  "description": "Elegant evening dress",
+  "price": 49.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "👗",
+  "stock": 50,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Sneakers",
+  "description": "Comfortable running shoes",
+  "price": 69.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "👟",
+  "stock": 80,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Leather Belt",
+  "description": "Genuine leather belt for men",
+  "price": 29.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "🧵",
+  "stock": 120,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Handbag",
+  "description": "Stylish women's handbag",
+  "price": 89.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "👜",
+  "stock": 40,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Sunglasses",
+  "description": "UV protection sunglasses",
+  "price": 24.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "🕶️",
+  "stock": 70,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Hoodie",
+  "description": "Warm cotton hoodie",
+  "price": 39.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "🧥",
+  "stock": 60,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Jeans",
+  "description": "Slim fit denim jeans",
+  "price": 49.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "👖",
+  "stock": 90,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Cap",
+  "description": "Stylish baseball cap",
+  "price": 14.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "🧢",
+  "stock": 110,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Scarf",
+  "description": "Wool scarf for winter",
+  "price": 19.99,
+  "category": "691f3c1e9b6d977ecc76d489",
+  "icon": "🧣",
+  "stock": 80,
+  "isActive": true
+}
+
+###
+
+### HEALTH & BEAUTY PRODUCTS
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Facial Cleanser",
+  "description": "Gentle daily facial cleanser",
+  "price": 12.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "🧴",
+  "stock": 100,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Moisturizing Cream",
+  "description": "Hydrating cream for all skin types",
+  "price": 19.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "💧",
+  "stock": 80,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Lipstick Set",
+  "description": "Long-lasting color lipstick set",
+  "price": 24.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "💄",
+  "stock": 70,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Shampoo",
+  "description": "Nourishing hair shampoo",
+  "price": 9.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "🧴",
+  "stock": 120,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Body Lotion",
+  "description": "Smooth and soft skin lotion",
+  "price": 14.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "🧴",
+  "stock": 90,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Nail Polish Set",
+  "description": "Vibrant nail polish collection",
+  "price": 19.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "💅",
+  "stock": 60,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Face Mask Pack",
+  "description": "Revitalizing face mask sheets",
+  "price": 9.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "🧖‍♀️",
+  "stock": 110,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Perfume",
+  "description": "Long-lasting fragrance",
+  "price": 49.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "🌸",
+  "stock": 40,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Hair Dryer",
+  "description": "Professional hair dryer",
+  "price": 59.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "💇‍♀️",
+  "stock": 50,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Electric Toothbrush",
+  "description": "Rechargeable electric toothbrush",
+  "price": 39.99,
+  "category": "691f3c209b6d977ecc76d48b",
+  "icon": "🪥",
+  "stock": 60,
+  "isActive": true
+}
+
+###
+
+### HOME & KITCHEN PRODUCTS
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Blender",
+  "description": "High-speed kitchen blender",
+  "price": 49.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "🧃",
+  "stock": 50,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Microwave Oven",
+  "description": "Compact microwave for quick meals",
+  "price": 99.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "🍲",
+  "stock": 40,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Coffee Maker",
+  "description": "Automatic coffee brewing machine",
+  "price": 79.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "☕",
+  "stock": 60,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Vacuum Cleaner",
+  "description": "Powerful home vacuum cleaner",
+  "price": 129.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "🧹",
   "stock": 30,
   "isActive": true
 }
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Dinner Set",
+  "description": "Porcelain dinner plates and bowls",
+  "price": 59.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "🍽️",
+  "stock": 80,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Cutlery Set",
+  "description": "Stainless steel knives and forks",
+  "price": 29.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "🍴",
+  "stock": 100,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Non-stick Pan",
+  "description": "Ideal for frying and cooking",
+  "price": 34.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "🍳",
+  "stock": 70,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Water Kettle",
+  "description": "Electric kettle for quick boiling",
+  "price": 24.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "🫖",
+  "stock": 90,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Toaster",
+  "description": "2-slice bread toaster",
+  "price": 19.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "🍞",
+  "stock": 60,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Rice Cooker",
+  "description": "Automatic rice cooker",
+  "price": 49.99,
+  "category": "691f3c129b6d977ecc76d485",
+  "icon": "🍚",
+  "stock": 40,
+  "isActive": true
+}
+
+###
+
+### SPORTS & OUTDOORS PRODUCTS
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Yoga Mat",
+  "description": "Non-slip exercise mat",
+  "price": 29.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "🧘‍♂️",
+  "stock": 100,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Dumbbell Set",
+  "description": "Adjustable dumbbell weights",
+  "price": 59.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "🏋️‍♂️",
+  "stock": 50,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Treadmill",
+  "description": "Folding electric treadmill",
+  "price": 399.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "🏃‍♂️",
+  "stock": 20,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Basketball",
+  "description": "Official size outdoor basketball",
+  "price": 24.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "🏀",
+  "stock": 80,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Football",
+  "description": "Durable outdoor football",
+  "price": 19.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "⚽️",
+  "stock": 70,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Camping Tent",
+  "description": "4-person waterproof tent",
+  "price": 129.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "⛺",
+  "stock": 30,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Hiking Backpack",
+  "description": "Water-resistant hiking backpack",
+  "price": 79.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "🎒",
+  "stock": 50,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Cycling Helmet",
+  "description": "Safety helmet for cycling",
+  "price": 39.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "🚴‍♂️",
+  "stock": 60,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Running Shoes",
+  "description": "Lightweight running shoes",
+  "price": 69.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "👟",
+  "stock": 80,
+  "isActive": true
+}
+
+###
+
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Water Bottle",
+  "description": "Insulated sports water bottle",
+  "price": 14.99,
+  "category": "691f3c239b6d977ecc76d48d",
+  "icon": "🥤",
+  "stock": 100,
+  "isActive": true
+}
+
+###
 
 
 ###

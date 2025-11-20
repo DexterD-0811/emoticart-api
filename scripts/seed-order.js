@@ -36,7 +36,7 @@ async function seedOrders() {
     const now = new Date();
     const threeMonthsAgo = new Date(now.getFullYear(), now.getMonth() - 3, now.getDate());
 
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 500; i++) { // <-- Updated to 500 orders
       const user = faker.helpers.arrayElement(users);
 
       const orderItemsCount = faker.number.int({ min: 1, max: 5 });
@@ -82,7 +82,7 @@ async function seedOrders() {
     }
 
     await Order.insertMany(orders);
-    console.log('Inserted 50 mock orders.');
+    console.log('Inserted 500 mock orders.');
 
     await mongoose.disconnect();
     process.exit(0);

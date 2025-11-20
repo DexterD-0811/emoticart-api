@@ -2,9 +2,9 @@ POST http://localhost:3000/category
 Content-Type: application/json
 
 {
-  "name": "Fruits",
-  "description": "Fresh fruits category",
-  "icon": "🥭"
+  "name": "Electronics",
+  "description": "All Electronics",
+  "icon": "📱"
 }
 
 
@@ -13,9 +13,9 @@ POST http://localhost:3000/category
 Content-Type: application/json
 
 {
-  "name": "Vegetables",
-  "description": "Fresh vegetables category",
-  "icon": "🥦"
+  "name": "Home & Kitchen",
+  "description": "Home and Kitchen",
+  "icon": "🏠"
 }
 
 ###
@@ -23,10 +23,34 @@ POST http://localhost:3000/category
 Content-Type: application/json
 
 {
-  "name": "Meat",
-  "description": "Fresh meat category",
-  "icon": "🍖"
+  "name": "Fasion & Apparel",
+  "description": "Clothes, shoesm accessories and bags",
+  "icon": "👕"
 }
+
+
+###
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+  "name": "Health & Beauty",
+  "description": "Skincare, makeup, grooming and wellness products",
+  "icon": "💄"
+}
+
+
+
+###
+POST http://localhost:3000/category
+Content-Type: application/json
+
+{
+  "name": "Sports & Outdoors",
+  "description": "Fitness equipment, camping gear, sportswear and outdoor accessories",
+  "icon": "⚽️"
+}
+
 
 
 ###
