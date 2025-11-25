@@ -25,7 +25,7 @@ try {
   process.exit(1);
 }
 
-const whitelist = ['http://localhost:5173', 'https://emoticart-admin.vercel.app'];
+const whitelist = ['http://localhost:5173', 'https://emoticart-admin-webapp.vercel.app'];
 
 app.use(
   cors({
@@ -40,6 +40,7 @@ app.use(
   })
 );
 
+app.options('*', cors({ origin: whitelist }));
 
 app.use(bodyParser.json());
 
